@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+.backgroundimg{
+    background-color: rgb(105, 105, 213);
+}
+.heroimg{
+    background-position:center center ;
+    align-items: center;
+    
+}
+.client img{
+    filter: grayscale(1);
+}
+.client img:hover{
+    filter: grayscale(0);
+}
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.border{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    bottom: 0px;
+    left: calc(50% - 20px);
+    background: rgb(71, 178, 228);
+}
+.abouts{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    /* align-items: center; */
+}
+.card1:hover h2{
+    color: blue;
+}
+.under{
+    border-bottom: 2px solid blue;
+    width: 50px;
+}
+.undero{
+    border-bottom: 2px solid blue;
+    width: 50px;
+}
+.nav-pills .nav-link.active{
+    border-radius: 20px;
+}
+
+
+
+
+@media (max-width:576px){
+    .herosection .row{
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+}
+.card1:hover{
+    /* box-shadow: 1px 1px 1px 1px; */
+    background-color: white;
+    border: 2px;
+    box-shadow: 1px 1px 2px 2px;
+
+}
+.underline{
+    border-bottom: 2px solid blue;
+   
+}
+.con1{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img:hover .con1{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con2{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img1:hover .con2{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con3{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img2:hover .con3{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con4{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img3:hover .con4{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con5{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img4:hover .con5{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con6{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img5:hover .con6{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con7{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img6:hover .con7{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con8{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img7:hover .con8{
+    visibility: visible;
+    opacity: 1 ;
+}
+.con9{
+    background-color: rgba(0, 0, 0, 0.237);
+    margin-top: -90px;
+    position: absolute;
+    width: 27%;
+    visibility: hidden;
+    opacity: 0;
+}
+.img8:hover .con9{
+    visibility: visible;  
+    opacity: 1 ;
+}
+.cardunderline{
+    border-bottom: 1px solid gray;
+    width: 10%;
+}
+.underp{
+    border-bottom: 2px solid gray;
+    width: 25%;
+
+}
+
+
+
